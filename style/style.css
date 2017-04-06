@@ -1,0 +1,104 @@
+body {
+	width: 1604px;
+	margin: 0 auto;
+}
+
+/* HEADER LEFT CONTAINER */
+.container-left {   /*стиль левого контейнера хидера*/
+	position: relative;
+	float: left;
+	height: 700px;
+	width: 1200px;
+	border: 1px black solid;
+	background: grey;
+}
+.header-logo {
+	position: absolute;
+	left: 33px;
+	top: 33px;
+	height: 40px;
+	width: 180px;
+	border: 1px black solid;
+}
+.header-login {
+	position: absolute;
+	top: 33px;
+	right: 130px;
+	height: 40px;
+	width: 80px;
+	border: 1px black solid;
+}
+.header-search {
+	position: absolute;
+	float: right;
+	top: 33px;
+	right: 80px;
+	height: 40px;
+	width: 40px;
+	border: 1px black solid;
+}
+.header-cart {
+	position: absolute;
+	float: right;
+	right: 30px;
+	top: 33px;
+	height: 40px;
+	width: 40px;
+	border: 1px black solid;
+}
+.container-right {
+	float: right;
+	height: 700px;
+	width: 400px;
+	border: 1px black solid;
+	background: #334861;
+}
+.nav {
+	margin: 40px 20px 40px 20px;
+	border: 1px black solid;
+}
+.nav > a {
+	display: inline-block;
+	margin: 60px 20px 60px 20px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.container-bestsellers {
+	height: 495px;
+	border: 1px black solid;
+	background: white;
+}
+.clearfix {
+	clear: both;
+}
+.container-sales {
+	height: 700px;
+	border: 1px black solid;
+	background: #be7074;
+}
+.container-top-sales-for-men {
+	height: 500px;
+	border: 1px black solid;
+	background: white;
+}
+.container-top-sales-for-women {
+	height: 500px;
+	border: 1px black solid;
+	background: white;
+}
+.container-subscribe {
+	height: 475px;
+	border: 1px black solid;
+	background: #eaeaea;
+}
+.list {
+	height: 365px;
+	border: 1px black solid;
+	background: #2b2c30;
+}
+.copyright {
+	height: 45px;
+	border: 1px black solid;
+	background: #141518;
+}
