@@ -6,16 +6,20 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<header>
+	<header class="wrap clearfix">
 	<!-- HEADER LEFT CONTAINER-->
-		<div class="container-left">
+		<div class="container-left clearfix">
 			<div class="header-logo"></div>
 			<div class="header-login"></div>
 			<div class="header-search"></div>
 			<div class="header-cart"></div>
+			<div class="header-img"></div>
+			<div class="header-text"></div>
+			<div class="header-button"></div>
+			<div class="header-slider-control"></div>
 		</div>
 	<!-- HEADER LEFT CONTAINER-->
-		<div class="container-right">
+		<div class="container-right clearfix">
 			<nav class="nav">
 				<a href="#">Home</a>
 				<a href="#">About Us</a>
@@ -28,23 +32,211 @@
 			</nav>
 		</div>
 	</header>
-	<div class="clearfix"></div>
 	<section>
-		<div class="container-bestsellers"></div>
-		<div class="clearfix"></div>
-		<div class="container-sales"></div>
-		<div class="clearfix"></div>
-		<div class="container-top-sales-for-men"></div>
-		<div class="clearfix"></div>
-		<div class="container-top-sales-for-women"></div>
-		<div class="clearfix"></div>
-		<div class="container-subscribe"></div>
+	<!-- BESTSELLERS-->
+		<div class="container-bestsellers">
+			<h2 class="title">Best Seller in Fragrance</h2>
+			<div class="slidebar">
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+			</div>
+			<div class="slidebar-control">
+				<div class="slidebar-control-left"></div>
+				<div class="slidebar-control-right"></div>
+			</div>
+		</div>
+		<!--SALES-->
+		<div class="container-sales">
+			<div class="discount-size"></div>
+			<p class="discount-text">on women's perfume</p>
+			<div class="discount-slidebar">
+				<div class="discount-slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+				</div>
+				<h3 class="discount-slidebar-box-brand">Davidoff</h3>
+				<p class="discount-slidebar-box-sex">Women's Perfume</p>
+				<p class="discount-slidebar-box-price"> $ 200.00</p>
+				<input type="button" class="discount-slidebar-button">
+				<div class="discount-slidebar-box-control"></div>
+			</div>
+		</div>
+		<!--TOP-SALES-FOR-WOMEN-->
+		<div class="container-top-sales-for-women">
+			<h2 class="title">Top sellers for women</h2>
+			<div class="slidebar">
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+			</div>
+			<div class="slidebar-control">
+				<div class="slidebar-control-left"></div>
+				<div class="slidebar-control-right"></div>
+			</div>
+		</div>
+		<div class="container-top-sales-for-men">
+			<h2 class="title">Top sellers for men</h2>
+			<div class="slidebar">
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+				<div class="slidebar-box">
+					<div class="slidebar-box-img">
+						<img src="#" alt="Картинка Парфюма">
+					</div>
+					<h3 class="slidebar-box-brand">Davidoff</h3>
+					<p class="slidebar-box-sex">Women's Perfume</p>
+					<p class="slidebar-box-price"> $ 200.00</p>
+				</div>
+			</div>
+			<div class="slidebar-control">
+				<div class="slidebar-control-left"></div>
+				<div class="slidebar-control-right"></div>
+			</div>
+		</div>
+		<!--SUBSRIBE-->
+		<div class="container-subscribe">
+			<p class="subscribe-text">stay update with latest perfume and discounts</p>
+			<input type="text" class="subscribe-text-box" placeholder="Enter your Email">
+			<input type="button" class="subscribe-button">
+			<div class="subscribe-left-img"></div>
+			<div class="subscribe-right-img"></div>
+		</div>
 	</section>
-	<div class="clearfix"></div>
 	<footer>
-		<div class="list"></div>
-		<div class="clearfix"></div>
-		<div class="copyright"></div>
+		<div class="footer-list">
+			<div class="footer-box">
+				<h3>Product categories</h3>
+				<a href="#">Fragrance</a>
+				<a href="#">Mens</a>
+				<a href="#">Make Up</a>
+				<a href="#">Skin Care</a>
+				<a href="#">Sun &amp; Tan</a>
+				<a href="#">Bath &amp; Body</a>
+				<a href="#">Hair</a>
+				<a href="#">Gifts</a>
+				<a href="#">Special Offer</a>
+				<a href="#">Brand A-Z</a>
+			</div>
+			<div class="footer-box">
+				<h3>Shopping with us</h3>
+				<a href="#">About Us</a>
+				<a href="#">My Account</a>
+				<a href="#">FAQs</a>
+				<a href="#">Gift Wrapping</a>
+				<a href="#">Gift Sertificate</a>
+			</div>
+			<div class="footer-box">
+				<h3>Customer Service</h3>
+				<a href="#">Delivery information</a>
+				<a href="#">CollectPlus</a>
+				<a href="#">Returns Policy</a>
+				<a href="#">Help</a>
+				<a href="#">Security &amp; Cookies</a>
+				<a href="#">Sitemap</a>
+				<a href="#">Terms &amp; Conditions</a>
+			</div>
+			<div class="footer-box">
+				<h3>Contact Us</h3>
+				<a href="#">Adress....</a>
+				<a href="#">Phone......</a>
+				<a href="#">Email.....</a>
+			</div>
+			<div class="footer-box-socials">
+				<h3>Social Connect</h3>
+				<a href="#">
+					<img src="" alt="FacebookLogo">
+				</a>
+				<a href="#">
+					<img src="" alt="TwitterLogo">
+				</a>
+				<a href="#">
+					<img src="" alt="LinkedInLogo">
+				</a>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright © 2016 Perfume store. All rights reserved | Design by</p>
+		</div>
 	</footer>
 </body>
 </html>
